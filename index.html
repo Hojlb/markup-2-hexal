@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>Hexal</title>
   <link rel="stylesheet" href="./css/master.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -105,38 +107,94 @@
         </nav>
       </section>
       <section class="person">
-        <article>
-          <div class="hex-itm">
-            <div class="hex-first-layer">
-              <div class="hex-second-layer">
-                <img src="image/SmithAndersonAvatar.png" alt="person-avatar">
-
-
-
+        <div class="person-wrapper">
+          <article>
+            <section class="avatar">
+              <div class="hex-itm">
+                <div class="hex-first-layer">
+                  <div class="hex-second-layer">
+                    <img src="image/SmithAndersonAvatar.png" alt="person-avatar">
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="discription">
-          <h3>Smith Anderson</h3>
-          <p>Illustrator & Character Designer</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </article>
+            </section>
+            <section class="discription">
+              <h3>Smith Anderson</h3>
+              <p>Illustrator & Character Designer</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="share-story-wrapper">
+                <ul class="share-story">
+                  <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.twitter.com/" target="_blank">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.google.com/" target="_blank">
+                      <i class="fab fa-google-plus-g"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.pinterest.com" target="_blank">
+                      <i class="fab fa-pinterest-p"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com" target="_blank">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.dribble.com" target="_blank">
+                      <i class="fab fa-dribbble"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </article>
+        </div>
       </section>
 
     </main>
     <footer>
-      <section class="callback">
-        <h3>Get in Touch</h3>
-        <p></p>
-        <form action="#" method="post" onsubmit="return false" class="cb-form">
-          <input type="text" name="User-Name" placeholder="Name" required>
-          <input type="email" name="email" placeholder="Email" required>
-          <input type="text" name="subject" placeholder="Subject">
-          <textarea name="name" rows="8" cols="80" placeholder="Write your message here..."></textarea>
-          <input type="submit" name="submit" value="SEND">
-        </form>
-      </section>
+      <div class="callback-wrapper">
+        <section class="callback">
+          <h3>Get in Touch</h3>
+          <p>In order to get in touch use the contact form below:</p>
+          <form action="#" method="post" onsubmit="return false" class="cb-form">
+            <input type="text" name="User-Name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="name" rows="8" cols="80" placeholder="Write your message here..."></textarea>
+            <input type="submit" name="submit" value="SEND">
+          </form>
+        </section>
+        <section class="about-us">
+          <article class="">
+            <p><b>Quisque Hendrerit:</b> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae</p>
+          </article>
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Elm St. 14/05 Lost City</span>
+          </div>
+          <div class="telephone">
+            <i class="fas fa-phone"></i>
+            <span>+ 3528 331 86 35</span>
+          </div>
+          <div class="email">
+            <i class="fas fa-envelope"></i>
+            <span>info@hexalcorp.com</span>
+          </div>
+        </section>
+      </div>
+      <div><span>© Copyright 2013 by PSDchat</span></div>
     </footer>
   </div>
 

@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Maven Pro";
+  src: url("../fonts/MavenPro-Regular.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato.regular.ttf") format("TrueType");
+}
+
 * {
   color: #fff;
 }
@@ -31,6 +41,13 @@ header {
   align-items: center;
   margin: 0 auto;
   height: 61px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.63rem;
+}
+
+.menu li {
+  list-style-type: none;
+  margin: 0 5px;
 }
 
 .menu li:hover {
@@ -48,11 +65,6 @@ header {
   color: inherit;
 }
 
-.menu li {
-  list-style-type: none;
-  padding: 0 10px;
-}
-
 .visually-hidden {
   position: absolute;
   height: 1px;
@@ -62,70 +74,27 @@ header {
   color: #111;
   clip: rect(1px 1px 1px 1px);
 }
+
 main {
   min-height: calc(100vh - 600px - 61px);
 }
 
-footer {
-  background-color: #323232;
-  height: 600px;
-}
-
-.callback {
-  padding: 70px 120px;
-}
-
-.cb-form {
-  width: 580px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  margin: 5px 20px;
-}
-
-.cb-form input:not([type="submit"]), textarea {
-  width: inherit;
-  display: inline-block;
-  box-sizing: border-box;
-  margin: 8px 0;
-  padding: 12px;
-  background-color: #454545;
-}
-
-.cb-form input[type="submit"] {
-  width: 93px;
-  background-color: #2eb398;
-}
-
-.cb-form input {
-  height: 37px;
-  color: #fff;
-  border: 0;
-}
-
-.cb-form textarea {
-  color: #fff;
-  border: 0;
-  height: 150px;
-  resize: none;
-}
 
 .hexagon-container {
   min-height: 720px;
-  width: 1200px;
-  border-bottom: 1px solid #959090;
+  width: 983px;
   margin: 0 auto;
 }
 
 .hex-itm {
+  left: -4px;
   position: relative;
-  width: 178px;
+  width: 179px;
   height: 207px;
   transform: rotate(120deg);
   margin: 10px;
   overflow: hidden;
+  top: 38px;
 }
 
 .hex-first-layer {
@@ -148,6 +117,37 @@ footer {
   flex-direction: row;
   justify-content: center;
   position: relative;
+}
+
+.avatar {
+  width: 593px;
+  margin: -75px 10px 0 61px;
+}
+
+.discription {
+  height: 100%;
+  overflow: hidden;
+}
+
+.discription h3 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.88rem;
+  color: #d7fcf5;
+  margin: 60px 0 0 0;
+}
+
+.discription p {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  color: #d7fcf5;
+  line-height: 1.3rem;
+}
+
+.discription p:nth-child(2) {
+  font-family: 'Maven Pro', sans-serif;
+  color: #20816d;
+  margin-top: -2px;
+  font-size: 1.13rem;
 }
 
 .nativ-row:first-child {
@@ -175,21 +175,28 @@ footer {
   left: -120px;
 }
 
+.person-wrapper {
+  width: 880px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid #219d84;
+  border-right: 1px solid #219d84;
+}
+
 .person article {
-  width: 1200px;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   overflow: hidden;
-  background-color: #ff000022;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .hex-nav {
-  height: 8px;
-  width: 8px;
-  margin: 1px;
+  height: 6px;
+  width: 6px;
+  margin: 0;
   border: 1px solid grey;
   box-sizing: border-box;
   display: inline-block;
@@ -201,6 +208,154 @@ footer {
 }
 
 .hexagon-container nav {
-  height: 20px;
-  margin: 0 20px;
+  margin: 3px 125px;
+}
+.share-story-wrapper {
+  margin-top: 37px;
+}
+
+.share-story {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 31px;
+}
+
+.share-story li {
+  width: 25px;
+  height: 25px;
+  list-style-type: none;
+  padding: 5px 0px;
+  display: block;
+  box-sizing: border-box;
+  background-color: #a4dbd4;
+}
+
+.share-story a {
+  color: #666;
+  display: block;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 100%;
+}
+.share-story li i::before {
+  color: #2eb398;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #323232;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.callback-wrapper {
+  max-width: 780px;
+  height: 556px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px 0;
+}
+
+.callback {
+  margin: 14px auto;
+  padding-left: 18px;
+}
+
+.callback * {
+  color: #d7fcf5;
+}
+
+.callback h3{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.88rem;
+  margin: 0;
+}
+
+.callback p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.12rem;
+  color: #bebebe;
+  margin-bottom: 13px;
+  margin-top: 0px;
+}
+
+.callback form *{
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7rem;
+  color: #bebebe;
+}
+
+.cb-form {
+  width: 580px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.cb-form input:not([type="submit"]), textarea {
+  width: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 8px 0;
+  padding: 12px;
+  background-color: #454545;
+}
+
+.cb-form input[type="submit"] {
+  width: 91px;
+  background-color: #2eb398;
+  margin-top: 9px;
+}
+
+.cb-form input {
+  height: 37px;
+  color: #fff;
+  border: 0;
+}
+
+.cb-form textarea {
+  color: #fff;
+  border: 0;
+  height: 150px;
+  resize: none;
+}
+
+.about-us *{
+  color: #bebebe;
+  font-size: 0.75rem;
+}
+
+.about-us {
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 68px;
+  line-height: 1.32rem;
+}
+
+footer > div:last-child{
+  height: 44px;
+  background-color: #222;
+  width: 100%;
+}
+
+footer > div:last-child span {
+  display: block;
+  width: 800px;
+  color: #3c3c3c;
+  margin: 0 auto;
+  padding: 14px 20px;
+}
+
+.location i, .telephone i, .email i{
+  padding-right: 10px;
+  color: #2eb398;
 }
