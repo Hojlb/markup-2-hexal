@@ -1,3 +1,4 @@
+Hojlb.github.io
 Homework: Hexal. Difficulty Level 1.
 Create a web page, strictly according to:
 
@@ -28,7 +29,7 @@ Failure to comply with the requirements of any task item may result in losing 3 
 Failure to comply with coding standards or syntax requirements may result in losing up to 20 points.
 Failure to comply with the PSD template (except for nuances with fonts) may result in losing up to 40 points.
 Terms of Reference
-Fully responsive layout is not required. ìInteractiveì means effects or animations depending on user's actions, like on hover or on click.
+Fully responsive layout is not required. ‚ÄúInteractive‚Äú means effects or animations depending on user's actions, like on hover or on click.
 
 Header.
 Interactive nav.
@@ -50,9 +51,9 @@ There is a useful tool to manipulate triangles: http://apps.eky.hk/css-triangle-
 To simplify work with CSS syntax and selectors, you can use CSS3 generator at: http://css3generator.com/
 
 If you don't have Photoshop to work with .psd files
-Thereís a good design tool: https://studio.psdetch.com/ No sign-up is required, just click the ìopenî button or drag&drop the downloaded PSD template. Yes, 
+There‚Äôs a good design tool: https://studio.psdetch.com/ No sign-up is required, just click the ‚Äúopen‚Äù button or drag&drop the downloaded PSD template. Yes, 
 its functionality is rather 
-limited, but it is perfectly suitable for work with layers. If you need to extract an image, the ìexportî function is available. It is perfectly functional 
+limited, but it is perfectly suitable for work with layers. If you need to extract an image, the ‚Äúexport‚Äù function is available. It is perfectly functional 
 to meet all the needs you would encounter in this homework.
 
 However, if you lack some of the functionality when using the previous service, give Photopea a try. No sign-up is required, too. It can handle .psd, .sketch and a variety of other formats. It also supports work with layers and export operations (including .svg format). Another advantage is that its interface is very similar to that of Photoshop.
